@@ -12,10 +12,12 @@ import { BsFillSunFill } from "react-icons/bs";
 import { BsFillMoonFill } from "react-icons/bs";
 
 function App() {
+
   const [theme, setTheme] = useLocalStorage(
     "theme" ? "dark" : "light",
     "light"
   );
+  
   const switchTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light";
     setTheme(newTheme);

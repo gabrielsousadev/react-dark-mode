@@ -15,22 +15,22 @@ body
 
 :root
 {
-  --background: #ffffff;
+  --background: #f2f2f7ff;
   --text-primary: #1c1c1eff;
   --text-secondary: #007affff;
   --accent: #007affff;
   --border: #333;
-  --form-bg:#fff;
+  --form-bg:#f2f2f7ff;
 }
 
 [data-theme='dark']
 {
   --background: #1c1c1eff;
-  --text-primary: #fff;
+  --text-primary: #f2f2f7ff;
   --text-secondary: #007affff;
   --accent: #007affff;
   --border: #808080;
-  --form-bg:#191919;
+  --form-bg:#1c1c1eff;
 }
 
 .App
